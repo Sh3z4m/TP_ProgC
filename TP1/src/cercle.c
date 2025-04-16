@@ -10,7 +10,7 @@ int main() {
   printf("Rayon du cercle: ");
 
     // demande de rayon
-    scanf("%f", &rayon);
+    scanf("%lf", &rayon);
 
     // Calcul de l'aire
     double aire = M_PI * rayon * rayon;
