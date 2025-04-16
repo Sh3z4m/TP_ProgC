@@ -10,6 +10,8 @@ int main() {
     int multiplication = A * B;
     double division = A / B;
     int modulo = A % B;
+    bool a_equal_b;
+    bool a_more_b;
 
     // Affichage des valeurs des variables
     printf("Valeur de A : %d\n", A);
