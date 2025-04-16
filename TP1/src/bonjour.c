@@ -1,1 +1,6 @@
-system("echo Bonjour le Monde!");
+#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+}
