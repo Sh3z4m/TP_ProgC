@@ -17,7 +17,7 @@ int main() {
     printf("Addition : %d\n", addition);
     printf("Soustraction : %d\n", soustraction);
     printf("Multiplication : %d\n", multiplication);
-    printf("Division : %d\n", division);
+    printf("Division : %f\n", division);
 
     return 0;
 }
