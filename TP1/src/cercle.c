@@ -2,10 +2,9 @@
 #include <math.h>
 
 int main() {
-    float rayon;         //rayon 
-    const float PI = 3.14159; // valeur de PI approximative
-    float aire;           // stockagge de l'aire
-    float circonference;  // stockage de la circonférence
+    // double rayon;         //rayon 
+    // double aire;           // stockagge de l'aire
+    // double circonference;  // stockage de la circonférence
 
 
   printf("Rayon du cercle: ");
@@ -14,10 +13,10 @@ int main() {
     scanf("%f", &rayon);
 
     // Calcul de l'aire
-    aire = PI * rayon * rayon;
+    double aire = M_PI * rayon * rayon;
 
     // Calcul de la circonference
-    circonference = 2 * PI * rayon;
+    double circonference = 2 * M_PI * rayon;
 
     printf("\nRayon:\n", rayon);
     printf("Aire : \n", aire);
