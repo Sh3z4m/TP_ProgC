@@ -2,7 +2,7 @@
 
 int main() {
     printf("Entrez le premier nombre, le deuxieme nombre et l'opérateur : (entrer entre chaque operation) ");    
-    int num1, 
+    int num1;
     int num2;
     char op;
     scanf("%d", &num1);
