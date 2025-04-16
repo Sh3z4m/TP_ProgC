@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    // double rayon;         //rayon 
+    double rayon;         //rayon 
     // double aire;           // stockagge de l'aire
     // double circonference;  // stockage de la circonférence
 
