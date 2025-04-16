@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-printf("Entrez le premier nombre, le deuxieme nombre et l'opérateur : (entrer entre chaque operation) ");    
-
 int main() {
     int num1;
     int num2;
