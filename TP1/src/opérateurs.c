@@ -19,7 +19,7 @@ int main() {
     printf("Soustraction : %d\n", soustraction);
     printf("Multiplication : %d\n", multiplication);
     printf("Division : %f\n", division);
-    printf("Modulo : %d\n", modulo);
+    printf("Modulo (reste de la division) : %d\n", modulo);
 
     return 0;
 }
