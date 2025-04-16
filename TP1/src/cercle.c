@@ -18,9 +18,9 @@ int main() {
     // Calcul de la circonference
     double circonference = 2 * M_PI * rayon;
 
-    printf("\nRayon:\n", rayon);
-    printf("Aire : \n", aire);
-    printf("Circonférence \n", circonference);
+    printf("Rayon:%lf\n", rayon);
+    printf("Aire :%lf\n", aire);
+    printf("Circonférence : %lf\n", circonference);
 
     return 0;
 }
