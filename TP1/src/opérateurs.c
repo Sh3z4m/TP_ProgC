@@ -11,8 +11,8 @@ int main() {
     int multiplication = A * B;
     double division = A / B;
     int modulo = A % B;
-    bool a_equal_b = (a == b);
-    bool a_more_b = (a > b);
+    bool a_equal_b = (A == B);
+    bool a_more_b = (A > B);
 
     // Affichage des valeurs des variables
     printf("Valeur de A : %d\n", A);
@@ -23,8 +23,8 @@ int main() {
     printf("Multiplication : %d\n", multiplication);
     printf("Division : %f\n", division);
     printf("Modulo (reste de la division) : %d\n", modulo);
-    printf("a == b : %s\n", a_equal_b ? "true" : "false");
-    printf("a > b : %s\n", a_more_b ? "true" : "false");
+    printf("A == B : %s\n", a_equal_b ? "true" : "false");
+    printf("A > B : %s\n", a_more_b ? "true" : "false");
     
     return 0;
 }
