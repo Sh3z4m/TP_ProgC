@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    printf("Entrez le premier nombre, le deuxieme nombre et l'opérateur : (entrer entre chaque operation) ");    
+    int num1, 
+    int num2;
     char op;
-    printf("Entrez le premier nombre entier (num1) : ");
     scanf("%d", &num1);
-    printf("Entrez le second nombre entier (num2) : ");
     scanf("%d", &num2);
-    printf("Entrez l'opérateur (+, -, *, /, %%, &, |, ~) : ");
     scanf(" %c", &op);
 
     int result;
