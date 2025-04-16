@@ -17,7 +17,7 @@ int main() {
 
     // Calcul de la circonference
     // circonference = 2 * PI * rayon;
-    circonference = "tesr";
+    circonference = 2 * PI * 2;
 
     printf("\nRayon:\n", rayon);
     printf("Aire : \n", aire);
