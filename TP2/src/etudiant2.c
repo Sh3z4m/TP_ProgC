@@ -24,6 +24,24 @@ int main() {
     etudiants[1].note_progC = 14.0;
     etudiants[1].note_sys = 14.1;
 
+    strcpy(etudiants[2].nom, "Sieres");
+    strcpy(etudiants[2].prenom, "Jose");
+    strcpy(etudiants[2].adresse, "2 rue du gros Caillou, Les Clayes-Sous-Bois");
+    etudiants[2].note_progC = 18.0;
+    etudiants[2].note_sys = 19.1;
+
+    strcpy(etudiants[3].nom, "Lienourd");
+    strcpy(etudiants[3].prenom, "Axel");
+    strcpy(etudiants[3].adresse, "8ter Avenue du Général Castex, Axel-Sur-Saone");
+    etudiants[3].note_progC = 19.0;
+    etudiants[3].note_sys = 19.1;
+
+    strcpy(etudiants[4].nom, "Vanniyasingam");
+    strcpy(etudiants[4].prenom, "Piremina");
+    strcpy(etudiants[4].adresse, "Brou-sur-Chantereine");
+    etudiants[4].note_progC = 4.0;
+    etudiants[4].note_sys = 18.5;
+    
     for (int i = 0; i < 5; i++) {
         printf("Étudiant.e %d :\n", i+1);
         printf("Nom : %s\n", etudiants[i].nom);
