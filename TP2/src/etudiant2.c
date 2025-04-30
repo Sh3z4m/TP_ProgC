@@ -18,6 +18,11 @@ int main() {
     etudiants[0].note_progC = 16.5;
     etudiants[0].note_sys = 12.1;
 
+    strcpy(etudiants[1].nom, "Martin");
+    strcpy(etudiants[1].prenom, "Pierre");
+    strcpy(etudiants[1].adresse, "20, Boulevard Niels Bohr, Lyon");
+    etudiants[1].note_progC = 14.0;
+    etudiants[1].note_sys = 14.1;
 
     for (int i = 0; i < 5; i++) {
         printf("Étudiant.e %d :\n", i+1);
